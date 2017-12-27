@@ -1,0 +1,29 @@
+html
+ head
+  title Login Page
+ body
+  form(name='loginForm', method='post', action='/login')
+   table(width='20%', bgcolor='0099CC', align='center')
+    tr
+     td(colspan='2')
+      center
+       font(size='4')
+        b  Login Page
+    tr
+     td Username:
+     td
+      input(type='text', size='25', name='userid')
+    tr
+     td Password:
+     td
+      input(type='Password', size='25', name='pwd')
+    tr
+     td
+      input(type='submit')
+
+html
+  head
+    title
+  body
+    form(name='registration', method='post', action='/registration')
+      input(type='submit')
